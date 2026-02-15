@@ -61,15 +61,14 @@ Models Used
 
 Comparison Table - Evaluation Metrics
 
-             Model  Accuracy    AUC  Precision  Recall     F1    MCC
-            XGBoost    0.8719 0.9288     0.7851  0.6683 0.7220 0.6430
-      Random Forest    0.8550 0.9192     0.8052  0.5506 0.6540 0.5827
-      Decision Tree    0.8447 0.8840     0.7907  0.5115 0.6212 0.5490
-Logistic Regression    0.8300 0.8612     0.7532  0.4716 0.5800 0.5011
- K-Nearest Neighbor    0.8280 0.8554     0.6738  0.5990 0.6342 0.5239
-        Naive Bayes    0.7947 0.8556     0.6759  0.3361 0.4490 0.3712
-
-
+| Model               | Accuracy   | AUC        | Precision  | Recall     | F1 Score   | MCC        |
+| ------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+|  XGBoost            | 0.8719     | 0.9288     | 0.7851     | 0.6683     | 0.7220     | 0.6430     |
+| Random Forest       | 0.8550     | 0.9192     | 0.8052     | 0.5506     | 0.6540     | 0.5827     |
+| Decision Tree       | 0.8447     | 0.8840     | 0.7907     | 0.5115     | 0.6212     | 0.5490     |
+| Logistic Regression | 0.8300     | 0.8612     | 0.7532     | 0.4716     | 0.5800     | 0.5011     |
+| K-Nearest Neighbor  | 0.8280     | 0.8554     | 0.6738     | 0.5990     | 0.6342     | 0.5239     |
+| Naive Bayes         | 0.7947     | 0.8556     | 0.6759     | 0.3361     | 0.4490     | 0.3712     |
 
 ---
 
