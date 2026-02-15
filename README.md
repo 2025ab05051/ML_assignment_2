@@ -27,26 +27,6 @@ Dataset Overview
 - Target Variable: Income (<=50K or >50K)
 
 
-Features Description
-
-
-#	Feature	Type	Description
-1	age	Numerical	Age of the individual
-2	workclass	Categorical	Type of employment (Private, Self-emp, Govt, etc.)
-3	fnlwgt	Numerical	Final sampling weight
-4	education	Categorical	Highest education level achieved
-5	education-num	Numerical	Education level in numeric form
-6	marital-status	Categorical	Marital status
-7	occupation	Categorical	Type of occupation
-8	relationship	Categorical	Relationship status
-9	race	Categorical	Race of the individual
-10	sex	Categorical	Gender (Male/Female)
-11	capital-gain	Numerical	Capital gains
-12	capital-loss	Numerical	Capital losses
-13	hours-per-week	Numerical	Working hours per week
-14	native-country	Categorical	Country of origin
-
-
 
 ### Data Preprocessing Steps
 1. Handling Missing Values:Removed rows with missing values (marked as '?')
