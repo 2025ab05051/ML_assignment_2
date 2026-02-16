@@ -1,7 +1,3 @@
-"""
-ML Assignment 2 - Streamlit App (Minimal Version)
-Contains ONLY the 4 required features + Download option
-"""
 
 import streamlit as st
 import pandas as pd
@@ -18,12 +14,12 @@ st.title("Adult Income Prediction - ML Models")
 
 # Model files dictionary
 MODEL_FILES = {
-    'Logistic Regression': 'model_logistic_regression.pkl',
-    'Decision Tree': 'model_decision_tree.pkl',
-    'K-Nearest Neighbor': 'model_k_nearest_neighbor.pkl',
-    'Naive Bayes': 'model_naive_bayes.pkl',
-    'Random Forest': 'model_random_forest.pkl',
-    'XGBoost': 'model_xgboost.pkl'
+    'Logistic Regression': 'models/model_logistic_regression.pkl',
+    'Decision Tree': 'models/model_decision_tree.pkl',
+    'K-Nearest Neighbor': 'moedls/model_k_nearest_neighbor.pkl',
+    'Naive Bayes': 'models/model_naive_bayes.pkl',
+    'Random Forest': 'models/model_random_forest.pkl',
+    'XGBoost': 'models/model_xgboost.pkl'
 }
 
 # Load model function
